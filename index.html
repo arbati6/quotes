@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="root">
+      <div class="local-storage"></div>
+      <h1 class="header">Random quote</h1>
+      <p class="subheader">latin generator</p>
+      <div class="quote">
+        <div class="quote__show-favorite">
+          <span class="show-favorite">
+            <i class="show-favorite--heart">&#10084;</i>
+          </span>
+          <span class="show-favorite__counter"></span>
+          <label class="show-favorite__label" for="checkbox">Show favorite</label>
+          <input class="show-favorite__toggle" type="checkbox" />
+        </div>
+        <h2 class="quote__header">Sint hic doloribus consequatur eos non id</h2>
+        <p class="quote__paragraph">
+          Quam occaecati qui deleniti consectetur consequatur aut facere quas
+          exercitationem aliquam hic voluptas neque id sunt ut aut accusamus
+          sunt consectetur expedita inventore velit
+        </p>
+        <button class="btn-add-favorite">Add to favorites</button>
+      </div>
+    </div>
+    <script type="module" src="localStorage.js"></script>
+  </body>
+</html>
